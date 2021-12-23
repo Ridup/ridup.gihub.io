@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-image: url("../images/bg.jpg");
+    z-index: 5;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transform: translate(0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.header {
+    height: 55px;
+}
+
+
+.MainContainer {
+    width: 100%;
+}
+
+.sidebar {
+    width: 45%;
+    float: left;
+    margin-left: 100px;
+    margin-right: -180px;
+    min-height: 500px;
+    padding: 5px;
+}
+
+.main {
+    float: left;
+    width: 585px;
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+
+#topButton {
+    float: right;
+    display: inline;
+}
+
+.changeImg {
+    height: 100%;
+    margin-right: 15px;
+    display: inline;
+    cursor: pointer;
+}
+
+.helpTip {
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 8px;
+    float: right;
+    display: inline;
+    cursor: pointer;
+}
+
+.cloudMusic {
+    vertical-align: super;
+    margin-right: 8px;
+    display: inline;
+    cursor: pointer;
+}
+
+/* 搜索 */
+.easyui-searchbox {
+    margin-top: 500px;
+    font-size: 30px;
+}
+
+
+/* 书签 */
+._tagBox {
+    font-size: 22px;
+    color: white;
+    font-family: "Segoe UI", "Microsoft Yahei", Arial;
+}
+
+#myTag {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    display: inline-grid;
+}
+
+#myTag ul {
+    margin-top: 10px;
+    float: left;
+}
+
+#myTag li {
+    float: left;
+    margin-left: 15px;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+#myTag a {
+    text-decoration: none;
+    color: #E8F1FF;
+}
+
+#myTag a:hover {
+    background-color: #449D6F;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration-line: underline;
+    transition: background-color 1s;
+    -moz-transition: background-color 1s; /* Firefox 4 */
+    -webkit-transition: background-color 1s; /* Safari and Chrome */
+    -o-transition: background-color 1s; /* Opera */
+}
